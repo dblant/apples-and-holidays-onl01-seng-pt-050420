@@ -98,7 +98,7 @@ def all_holidays_with_bbq(holiday_hash)
       if d.include?("BBQ")
         holiday_names << c
       end
-      binding.pry
+      
     end
     
     
