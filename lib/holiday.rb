@@ -42,7 +42,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
     }
   }
   
-  holiday_hash.each do |a|
+  holiday_hash.each do |holiday,decorations||
     a
     binding.pry
 end
