@@ -80,7 +80,7 @@ def all_supplies_in_holidays(holiday_hash)
        
        
      end
-     collection.join(" ").chomp
+    # collection.join(" ").chomp
      collection.chomp
      binding.pry
   
