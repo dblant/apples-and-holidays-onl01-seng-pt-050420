@@ -59,9 +59,9 @@ def all_winter_holiday_supplies(holiday_hash)
  
   holiday_hash.collect do |a,b|
     b.collect do |c,d|
-      c
+      cbinding.pry
     end
-      binding.pry
+      
   
     
   end
