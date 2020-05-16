@@ -93,10 +93,11 @@ end
 def all_holidays_with_bbq(holiday_hash)
   holiday_names = []
   
-  holiday_hash.each do |a|
+  holiday_hash.collect do |a, b|
+    binding.pry
     a[].include?("BBQ")
     if true 
-      holiday_names << a[]
+      
       
     end
     end
