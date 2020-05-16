@@ -97,7 +97,6 @@ def all_holidays_with_bbq(holiday_hash)
     a[].include?("BBQ")
     if true 
       holiday_names << a[]
-    else 
       
     end
     end
