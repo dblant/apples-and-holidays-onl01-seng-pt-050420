@@ -73,7 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
   
   
   holiday_hash.collect do |a|
-     a.to_s
+     a
        
        binding.pry
      
