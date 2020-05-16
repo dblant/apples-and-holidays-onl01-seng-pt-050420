@@ -58,9 +58,9 @@ end
 def all_winter_holiday_supplies(holiday_hash)
  supplies = []
   holiday_hash[:winter].collect do |a,b|
-    binding.pry
+   
        b.each do |a|
-         supplies << a
+          binding.prysupplies << a
      end
         
   end
