@@ -72,7 +72,10 @@ end
 def all_supplies_in_holidays(holiday_hash)
   
   
-  holiday_hash.collect
+  holiday_hash.each do |a|
+    puts "#{a}"
+  end
+    
   
   # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
