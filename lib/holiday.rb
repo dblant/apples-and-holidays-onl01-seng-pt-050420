@@ -59,9 +59,9 @@ def all_winter_holiday_supplies(holiday_hash)
  
   holiday_hash.collect do |a,b|
     a.collect do |c,d|
-      
+      binding.pry
     end
-    binding.pry
+    
   end
     
   # return an array of all of the supplies that are used in the winter season
