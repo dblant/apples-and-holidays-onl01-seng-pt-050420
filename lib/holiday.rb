@@ -80,9 +80,9 @@ def all_supplies_in_holidays(holiday_hash)
        
        
      end
-     [:winter].join(" ").chomp
+     collection.join(" ").chomp
      
-     
+     binding.pry
   
     
   
