@@ -27,7 +27,7 @@ end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
   
-  holiday_hash[:winter].collect do |holiday,decorations|
+  holiday_hash[:winter].collect do |holiday,decoration|
     decoration << supply
 end
   
