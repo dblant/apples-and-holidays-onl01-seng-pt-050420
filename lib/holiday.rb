@@ -59,7 +59,10 @@ def all_winter_holiday_supplies(holiday_hash)
  supplies = []
   holiday_hash[:winter].collect do |a,b|
     
-      supplies << b.join(" , ")
+       b.each do |a|
+         supplies << a
+     end
+         
       
   
       
