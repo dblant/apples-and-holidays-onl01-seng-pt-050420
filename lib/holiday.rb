@@ -72,8 +72,8 @@ end
 def all_supplies_in_holidays(holiday_hash)
   
   
-  holiday_hash.each do |a|
-    binding.pry
+  holiday_hash.first do |a|
+    
   end
     
   
