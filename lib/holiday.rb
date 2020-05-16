@@ -94,7 +94,9 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_names = []
   
   holiday_hash.each do |a|
-    a.include?("BBQ")
+    a[].include?("BBQ")
+    if true 
+      
     end
    
 
